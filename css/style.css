@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    background-color: #221818;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    nav{
+        color: white;
+
+        ul{
+            display: flex;
+            list-style: none;
+            align-items: center;
+        }
+
+        .left, .right,.center {
+            ul{
+                display: flex;
+                gap: 100px;
+            }
+        }
+
+        .left{
+            margin-right: auto;
+            .logoYT{
+                background-color: white;
+                padding: 3px;
+                height: 30px;
+            }
+        }
+
+        .center{
+            margin-right: auto;
+            ul{
+            gap: 10px;
+            }
+            input{
+                width: 500px;
+
+                height: 35px;
+                border-radius: 100px;
+                padding: 5px;
+            }
+            svg{
+                position: absolute;
+                top: 28px;
+            }
+        }
+        .right{
+            ul{
+                gap: 40px;
+            }
+        }
+    }
+
+    aside{
+        padding-top: 10px;
+        position: fixed;
+        top: 75px;
+        left:0;
+        width: 13%;
+        height: 100%;
+        background-color: red;
+        hr{
+            width: 140%;
+        }
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            gap: 10px;
+
+            li {
+                display: flex;
+                align-items: center;
+                gap: 30px;
+                background-color: blue;
+                border-radius: 5px;
+                padding: 5px;
+                font-size: 1.2rem;
+                height: 50px;
+
+            }
+
+
+        }
+    }
+}
+
+main{
+    height: 10000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
