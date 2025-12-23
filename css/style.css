@@ -6,6 +6,7 @@
 
 }
 
+
 header{
     background-color: #221818;
     padding: 20px;
@@ -134,8 +135,44 @@ header{
 }
 
 main{
-    display: flex;
 
+    padding-left: 13%;
+    padding-top: 100px;
+
+    ul{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        row-gap: 20px;
+        align-content: space-between;
+        flex-wrap: wrap;
+
+
+        li{
+            width: fit-content;
+
+            img{
+                height: 300px;
+            }
+
+        }
+
+        .thumbnail{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            svg{
+                fill: black;
+
+            }
+
+            .extraThumbnail{
+                display: flex;
+
+            }
+        }
+
+    }
 
 }
 
